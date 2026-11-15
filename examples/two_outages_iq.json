@@ -1,0 +1,303 @@
+{
+  "title": "Two outages, one week (Iraqi Arabic)",
+  "lang": "ar",
+  "engine": "elevenlabs",
+  "voice": "7GuGTyc18I5wWanLbbNq",
+  "presenter": {
+    "photo": "examples/assets/presenter/presenter.png",
+    "crop": [
+      450,
+      200,
+      420
+    ],
+    "title": "Your title · Your role",
+    "subtitle": "Two outages, one week"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_Microsoft_outage",
+    "https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why",
+    "https://controlplane.com/blog/post/microsoft-365-outage-november-2026-cause",
+    "https://www.cnn.com/2026/11/12/tech/microsoft-outage-cripples-office-workers-nationwide",
+    "https://en.wikipedia.org/wiki/2026_FAA_ground_stop",
+    "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel",
+    "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+  ],
+  "lines": [
+    {
+      "text": "بنفس الأسبوع، العالم وقف مرتين. وبالمرتين قالوا: مو هجوم هكرز. صدفة؟",
+      "caption": "In one week, the world stopped twice. Both times they said: not a hack. Coincidence?",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/outlook/campus.jpg",
+            "tag": "Microsoft, Redmond · file photo",
+            "credit": "Photo: Coolcaesar · CC BY-SA 4.0 · Wikimedia Commons",
+            "kicker": "BREAKING",
+            "headline": "Two outages. One week."
+          }
+        }
+      ]
+    },
+    {
+      "text": "أول شي، يوم الخميس، أوتلوك مال مايكروسوفت وقف بأكثر من سبعين دولة.",
+      "caption": "First, on Thursday, Microsoft's Outlook went down in more than 70 countries.",
+      "graphics": [
+        {
+          "template": "stat",
+          "params": {
+            "value": "70",
+            "suffix": "+",
+            "label": "countries could not use Outlook"
+          }
+        }
+      ]
+    },
+    {
+      "text": "وتيمز وكوبايلوت هم تعطلوا.",
+      "caption": "Teams and Copilot went down too.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "What went down",
+            "items": [
+              "Outlook email",
+              "Teams",
+              "Copilot"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "ببريطانيا، مستشفيات لغت عمليات ورجعت للورق.",
+      "caption": "In the UK, hospitals cancelled operations and went back to paper.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/outlook/hospital.jpg",
+            "tag": "UK hospital · file photo",
+            "credit": "Photo: David Hallam-Jones · CC BY-SA 2.0 · Wikimedia Commons",
+            "kicker": "HOSPITALS HIT"
+          }
+        }
+      ]
+    },
+    {
+      "text": "شنو اللي صار؟ سيرفرات الإيميل تفحص صحتها طول الوقت.",
+      "caption": "What happened? Email servers check their own health all the time.",
+      "graphics": [
+        {
+          "template": "cascade",
+          "params": {
+            "stage": "ok",
+            "title": "Email servers",
+            "caption": "Health check: all OK"
+          }
+        }
+      ]
+    },
+    {
+      "text": "قسم منها فشل بالفحص، فانطفت.",
+      "caption": "Some failed the check, so they were switched off.",
+      "graphics": [
+        {
+          "template": "cascade",
+          "params": {
+            "stage": "fail",
+            "failed": 2,
+            "title": "Health check failed",
+            "caption": "Switched off"
+          }
+        }
+      ]
+    },
+    {
+      "text": "الباقي شالوا كل الشغل، انضغطوا ووقفوا هم، مثل الدومينو.",
+      "caption": "The rest took all the work, got overloaded and stopped too, like dominoes.",
+      "graphics": [
+        {
+          "template": "cascade",
+          "params": {
+            "stage": "domino",
+            "failed": 2,
+            "title": "Like dominoes",
+            "caption": "Too much work → stopped too"
+          }
+        }
+      ]
+    },
+    {
+      "text": "ومايكروسوفت قالت: ماكو أي دليل على هجوم إلكتروني.",
+      "caption": "Microsoft said: no sign of a cyberattack.",
+      "graphics": [
+        {
+          "template": "quote",
+          "params": {
+            "text": "No indication of malicious or cyber activity.",
+            "source": "Microsoft"
+          }
+        }
+      ]
+    },
+    {
+      "text": "ثاني يوم، الجمعة، أمريكا وقفت كل طياراتها.",
+      "caption": "The next day, Friday, America stopped all its planes.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/taxiway.jpg",
+            "tag": "Planes waiting · file photo",
+            "credit": "Photo: 4300streetcar · CC BY 4.0 · Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "text": "إدارة الطيران الأمريكية منعت كل الطيارات من الإقلاع، لأكثر من أربع ساعات.",
+      "caption": "The FAA stopped every plane from taking off for more than 4 hours.",
+      "graphics": [
+        {
+          "template": "timeline",
+          "params": {
+            "title": "Friday, Nov 13 (Eastern time)",
+            "items": [
+              {
+                "time": "3:54 PM",
+                "text": "All departures stopped"
+              },
+              {
+                "time": "8:15 PM",
+                "text": "Flights start again"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "وهاي ثالث مرة بالتاريخ. قبلها صارت بأحداث سبتمبر ألفين وواحد، وبألفين وثلاثة وعشرين.",
+      "caption": "Only the third time ever: after 9/11, and in 2023.",
+      "graphics": [
+        {
+          "template": "timeline",
+          "params": {
+            "title": "US-wide ground stops",
+            "items": [
+              {
+                "time": "Sept 11, 2001",
+                "text": "Terror attacks"
+              },
+              {
+                "time": "Jan 2023",
+                "text": "FAA computer failure"
+              },
+              {
+                "time": "Nov 13, 2026",
+                "text": "Network outage"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "السبب؟ شبكة الاتصالات اللي تربط مراكز المراقبة الجوية عطلت.",
+      "caption": "The cause? The network linking air traffic control centers broke down.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "What broke",
+            "items": [
+              "Control centers lost contact",
+              "Radio problems",
+              "Planes could not leave"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "أكثر من أربعة آلاف وسبعمية رحلة تلغت، وأكثر من عشرة آلاف تأخرت.",
+      "caption": "More than 4,700 flights cancelled, more than 10,000 delayed.",
+      "graphics": [
+        {
+          "template": "bars",
+          "params": {
+            "title": "Friday flights",
+            "bars": [
+              {
+                "label": "Cancelled",
+                "value": 4700
+              },
+              {
+                "label": "Delayed",
+                "value": 10000
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "والمسؤولين قالوا: أجهزة جديدة دزت داتا هواية للنظام القديم، وماكو أي علامة على هجوم.",
+      "caption": "Officials said new equipment sent too much data to the old system, and there was no sign of an attack.",
+      "graphics": [
+        {
+          "template": "compare",
+          "params": {
+            "before": "Old system",
+            "after": "Too much data from new equipment → overload"
+          }
+        }
+      ]
+    },
+    {
+      "text": "يومين ورا بعض، نظامين كبار وقفوا، وبالاثنين السبب مو هكرز.",
+      "caption": "Two days in a row, two huge systems stopped, and both times it was not hackers.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "COINCIDENCE?",
+            "text": "Not hackers. Twice."
+          }
+        }
+      ]
+    },
+    {
+      "text": "المسؤولين يقولون ماكو علاقة بين الحادثتين. صدفة لو لا؟ اكتبلي رأيك بالتعليقات.",
+      "caption": "Officials say the two are not connected. Coincidence or not? Tell me in the comments.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/capitol.jpg",
+            "tag": "Washington · file photo",
+            "credit": "Photo: Noclip · public domain",
+            "headline": "Officials: the two are not connected"
+          }
+        }
+      ]
+    },
+    {
+      "text": "والدرس: كل ما الأنظمة تكبر، غلطة صغيرة توقف العالم. تابعني حتى توصلك الأخبار أول بأول.",
+      "caption": "The lesson: the bigger the systems, the more one small mistake can stop the world. Follow for more.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/outlook/worker.jpg",
+            "tag": "file photo",
+            "credit": "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons",
+            "headline": "One system. The whole world."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "How prompt engineering works",
+  "lang": "en",
+  "engine": "chatterbox",
+  "voice": "default",
+  "lines": [
+    {
+      "text": "How does prompt engineering actually work?",
+      "graphic": {
+        "template": "title",
+        "params": {
+          "text": "Prompt Engineering",
+          "kicker": "AI EXPLAINED"
+        }
+      }
+    },
+    {
+      "text": "An AI model predicts the next word from everything you give it.",
+      "graphic": {
+        "template": "quote",
+        "params": {
+          "text": "It predicts the next word from your context.",
+          "source": "How LLMs work"
+        }
+      }
+    },
+    {
+      "text": "So your prompt is the entire world it thinks inside.",
+      "graphic": {
+        "template": "title",
+        "params": {
+          "text": "Prompt = context",
+          "kicker": "THE KEY IDEA"
+        }
+      }
+    },
+    {
+      "text": "A strong prompt has four parts: a role, the task, the context, and the output format.",
+      "graphic": {
+        "template": "list",
+        "params": {
+          "title": "A strong prompt",
+          "items": [
+            "Role",
+            "Task",
+            "Context",
+            "Format"
+          ]
+        }
+      }
+    },
+    {
+      "text": "Add an example or two, and the model copies the pattern.",
+      "graphic": {
+        "template": "title",
+        "params": {
+          "text": "Show, don't tell",
+          "kicker": "EXAMPLES"
+        }
+      }
+    },
+    {
+      "text": "For harder problems, ask it to think step by step before it answers.",
+      "graphic": {
+        "template": "title",
+        "params": {
+          "text": "Think step by step",
+          "kicker": "REASONING"
+        }
+      }
+    },
+    {
+      "text": "Then iterate: test it, read the answer, and refine.",
+      "graphic": {
+        "template": "list",
+        "params": {
+          "title": "Iterate",
+          "items": [
+            "Test",
+            "Read",
+            "Refine"
+          ]
+        }
+      }
+    },
+    {
+      "text": "Clear input, clear output. Follow for more AI tips.",
+      "graphic": {
+        "template": "nametag",
+        "params": {
+          "name": "Follow for more",
+          "subtitle": "AI tips every week"
+        }
+      }
+    }
+  ]
+}

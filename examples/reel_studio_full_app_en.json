@@ -1,0 +1,328 @@
+{
+  "title": "Reel Studio: the full app",
+  "lang": "en",
+  "engine": "elevenlabs",
+  "voice": "J9NvviOEdVm6E7Hwdpdj",
+  "presenter": {
+    "photo": "examples/assets/presenter/presenter.png",
+    "crop": [
+      450,
+      200,
+      420
+    ],
+    "title": "Your title · Your role",
+    "subtitle": "How Reel Studio works"
+  },
+  "lines": [
+    {
+      "text": "This is Reel Studio. A video editor I built with AI, and this whole video was made by it.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "REEL STUDIO",
+            "text": "An AI video editor I built"
+          }
+        }
+      ]
+    },
+    {
+      "text": "You give it an idea. It gives you a finished video. Here is what happens inside.",
+      "graphics": [
+        {
+          "template": "pipeline",
+          "params": {
+            "title": "What happens inside",
+            "nodes": [
+              {
+                "label": "Script",
+                "sub": "Claude writes it"
+              },
+              {
+                "label": "Voice",
+                "sub": "ElevenLabs or you"
+              },
+              {
+                "label": "Captions",
+                "sub": "each word timed"
+              },
+              {
+                "label": "Graphics",
+                "sub": "HyperFrames"
+              },
+              {
+                "label": "Export",
+                "sub": "4K · 60 fps"
+              },
+              {
+                "label": "Quality check",
+                "sub": "must pass"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Story one. You ask: what happened at American airports yesterday?",
+      "graphics": [
+        {
+          "template": "chat",
+          "params": {
+            "prompt": "What happened at US airports yesterday?",
+            "reply": "An FAA ground stop. Checking the sources…"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Claude reads the news, checks every fact, and writes a one-minute script.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "Research",
+            "items": [
+              "Read the news",
+              "Check every fact",
+              "Write the script"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "It finds real photos it is allowed to use, and puts the credit on screen.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/taxiway.jpg",
+            "kicker": "STORY 1 · NEWS",
+            "headline": "Real photos, real credits",
+            "tag": "Boston Logan · file photo",
+            "credit": "Photo: 4300streetcar · CC BY 4.0 · Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "text": "More than 4,700 cancelled flights become a number you can feel.",
+      "graphics": [
+        {
+          "template": "stat",
+          "params": {
+            "value": "4700",
+            "suffix": "+",
+            "label": "flights cancelled"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Then a voice reads the script, and AI listens to every single line.",
+      "graphics": [
+        {
+          "template": "terminal",
+          "params": {
+            "title": "reel narrate",
+            "command": "reel narrate airports.json",
+            "lines": [
+              "→ voice 1/13 · ElevenLabs",
+              "✓ heard back: every word clean",
+              "→ voice 2/13",
+              "✗ \"look\" said twice",
+              "→ new take, respelled",
+              "✓ heard back: every word clean",
+              "→ graphics 13/13 rendered",
+              "✓ 4K · 60 fps · HEVC"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Here is the code. The voice speaks, Whisper listens back, and if one word is wrong, it tries again.",
+      "graphics": [
+        {
+          "template": "code",
+          "params": {
+            "title": "voice/pronounce.py",
+            "lines": [
+              "for attempt in range(4):",
+              "    audio = voice.speak(line)",
+              "    heard = whisper.listen(audio)",
+              "    if heard == script:",
+              "        break  # clean take",
+              "    line = respell(line)"
+            ],
+            "steps": [
+              {
+                "line": 1,
+                "note": "Try 1"
+              },
+              {
+                "line": 2,
+                "note": "Speak the line"
+              },
+              {
+                "line": 3,
+                "note": "Heard: \"eye\"",
+                "kind": "bad"
+              },
+              {
+                "line": 4,
+                "note": "\"AI\" ≠ \"eye\"",
+                "kind": "bad"
+              },
+              {
+                "line": 6,
+                "note": "Respell: AI → A.I."
+              },
+              {
+                "line": 1,
+                "note": "Try 2"
+              },
+              {
+                "line": 3,
+                "note": "Heard: \"AI\"",
+                "kind": "ok"
+              },
+              {
+                "line": 5,
+                "note": "Clean take ✓",
+                "kind": "ok"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Story two. Teach something. Why did Outlook go down in more than seventy countries?",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/outlook/racks.jpg",
+            "kicker": "STORY 2 · LESSON",
+            "headline": "Why did Outlook go down?",
+            "tag": "Servers · file photo",
+            "credit": "Photo: NOIRLab/NSF/AURA/T. Slovinský · CC BY 4.0 · Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "text": "It draws the servers, and you watch them fall like dominoes.",
+      "graphics": [
+        {
+          "template": "cascade",
+          "params": {
+            "stage": "domino",
+            "failed": 2,
+            "title": "Like dominoes",
+            "caption": "One fails, the rest overload"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Story three. Your own video. It finds every take, keeps your last clean one, and cuts the silence.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "Story 3 · Your footage",
+            "items": [
+              "Find every take",
+              "Keep the last clean one",
+              "Cut the silence"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "It finds your face, so no graphic ever covers it.",
+      "graphics": [
+        {
+          "template": "facebox",
+          "params": {
+            "src": "examples/assets/presenter/presenter.png",
+            "img_w": 1080,
+            "img_h": 1350,
+            "face": [
+              569,
+              255,
+              752,
+              488
+            ],
+            "score": 0.95
+          }
+        }
+      ]
+    },
+    {
+      "text": "Or read it yourself. A teleprompter guides you, and the app cleans your voice.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "Record studio",
+            "items": [
+              "Teleprompter, line by line",
+              "Pick your microphone",
+              "Noise and silence removed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Every video gets English captions, timed to each word, in 4K at 60 frames per second.",
+      "graphics": [
+        {
+          "template": "stat",
+          "params": {
+            "value": "4",
+            "suffix": "K",
+            "label": "60 fps · captions on every word"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Before anything is posted, it checks the final file. Picture, sound, and every word.",
+      "graphics": [
+        {
+          "template": "terminal",
+          "params": {
+            "title": "reel qa",
+            "command": "reel qa how-reel-studio-works",
+            "lines": [
+              "PASS  picture   2160x3840 · 60 fps · HEVC",
+              "PASS  captions  56 English cues",
+              "PASS  loudness  -14.0 LUFS",
+              "PASS  no black or frozen frames",
+              "PASS  every word heard: 169/169",
+              "✓ QA PASSED"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "News, stories, lessons. One app. Want the code? Comment REPO, and I will send you the GitHub link.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "WANT THE CODE?",
+            "text": "Comment REPO"
+          }
+        }
+      ]
+    }
+  ]
+}

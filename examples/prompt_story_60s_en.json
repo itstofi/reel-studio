@@ -1,0 +1,208 @@
+{
+  "title": "Sara's bakery: how a good prompt works",
+  "lang": "en",
+  "engine": "chatterbox",
+  "voice": "default",
+  "lines": [
+    {
+      "text": "This is Sara. She has a small bakery.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/prompt_story/sara_bakery.png",
+            "tag": "Meet Sara"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Every day, she must post on Instagram to get new customers. But she is busy, and she is tired.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/prompt_story/sara_tired.png",
+            "tag": "No time"
+          }
+        }
+      ]
+    },
+    {
+      "text": "One night, she asks AI: write a post about my bread.",
+      "graphics": [
+        {
+          "template": "chat",
+          "params": {
+            "prompt": "Write a post about my bread."
+          }
+        }
+      ]
+    },
+    {
+      "text": "The answer is boring. It sounds like a robot. Only three people like it.",
+      "graphics": [
+        {
+          "template": "chat",
+          "params": {
+            "prompt": "Write a post about my bread.",
+            "reply": "Our bread is good. Come and buy bread at our shop today."
+          },
+          "box": {
+            "x": 160,
+            "y": 1500,
+            "w": 1840,
+            "h": 1150,
+            "zoom": 1.35
+          }
+        },
+        {
+          "template": "stat",
+          "params": {
+            "value": "3",
+            "label": "likes. Ouch."
+          },
+          "offset": 1.6,
+          "box": {
+            "x": 160,
+            "y": 650,
+            "w": 1840,
+            "h": 800,
+            "zoom": 1.35
+          }
+        }
+      ]
+    },
+    {
+      "text": "Then her friend shows her a secret. A good prompt has four simple parts.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/prompt_story/sara_friend.png",
+            "tag": "The secret"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Who the AI is. What to do. The details. And how the answer should look.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "4 parts of a good prompt",
+            "items": [
+              "1. Who the AI is",
+              "2. What to do",
+              "3. The details",
+              "4. How it looks"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "So Sara opens the AI again and writes a new prompt, step by step.",
+      "graphics": [
+        {
+          "template": "chat",
+          "params": {
+            "prompt": "You are a friendly baker. Write 3 short posts. My bread is fresh at 7 am. Use a warm, happy voice."
+          }
+        }
+      ]
+    },
+    {
+      "text": "Now the posts are warm and fun. They sound just like her.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/prompt_story/phone_post.png",
+            "tag": "Warm & fun"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Before, she wrote one short line. Now, she gives clear details.",
+      "graphics": [
+        {
+          "template": "compare",
+          "params": {
+            "before": "Write a post about my bread.",
+            "after": "You are a friendly baker. Write 3 warm posts. Fresh bread at 7 am."
+          }
+        }
+      ]
+    },
+    {
+      "text": "After one month, her likes grow every single week, and many new people come to the shop.",
+      "graphics": [
+        {
+          "template": "bars",
+          "params": {
+            "title": "Likes per week",
+            "bars": [
+              {
+                "label": "Week 1",
+                "value": 12
+              },
+              {
+                "label": "Week 2",
+                "value": 45
+              },
+              {
+                "label": "Week 3",
+                "value": 110
+              },
+              {
+                "label": "Week 4",
+                "value": 240
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Remember: AI is not magic. A clear prompt gives a clear answer.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/prompt_story/sara_happy.png"
+          }
+        },
+        {
+          "template": "title",
+          "params": {
+            "text": "Clear prompt = clear answer",
+            "kicker": "THE LESSON"
+          },
+          "offset": 0.4,
+          "box": {
+            "x": 160,
+            "y": 1500,
+            "w": 1840,
+            "h": 1150,
+            "zoom": 1.35
+          }
+        }
+      ]
+    },
+    {
+      "text": "Follow for more easy AI tips.",
+      "graphics": [
+        {
+          "template": "nametag",
+          "params": {
+            "name": "Follow for more",
+            "subtitle": "Easy AI tips every week"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "campus": {
+    "title": "File:Building92microsoft.jpg",
+    "artist": "Coolcaesar",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg"
+  },
+  "campus2": {
+    "title": "File:Building 92 of Microsoft Redmond Campus - panoramio.jpg",
+    "artist": "Jiaqian AirplaneFan",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Building_92_of_Microsoft_Redmond_Campus_-_panoramio.jpg"
+  },
+  "datacenter": {
+    "title": "File:Data center infrastructure in the United States.jpg",
+    "artist": "DOE/National Renewable Energy Laboratory (NREL)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg"
+  },
+  "racks": {
+    "title": "File:NOIRLab HQ Server Racks (6V6A0395-CC).jpg",
+    "artist": "NOIRLab/NSF/AURA/T. Slovinský",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NOIRLab_HQ_Server_Racks_(6V6A0395-CC).jpg"
+  },
+  "hospital": {
+    "title": "File:Leicester General Hospital, Evington, Leicester - geograph.org.uk - 4292391.jpg",
+    "artist": "David Hallam-Jones",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leicester_General_Hospital,_Evington,_Leicester_-_geograph.org.uk_-_4292391.jpg"
+  },
+  "worker": {
+    "title": "File:Woman working on laptop indoors in a modern office.jpg",
+    "artist": "Shixart1985",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Woman_working_on_laptop_indoors_in_a_modern_office.jpg"
+  },
+  "phone": {
+    "title": "File:Person using a laptop while holding a telephone receiver.jpg",
+    "artist": "Shixart1985",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Person_using_a_laptop_while_holding_a_telephone_receiver.jpg"
+  },
+  "trading": {
+    "title": "File:Frankfurt Stock Exchange (Ank Kumar) 03.jpg",
+    "artist": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg"
+  }
+}

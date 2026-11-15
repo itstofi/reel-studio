@@ -1,0 +1,13 @@
+{
+  "name": "reelstudio-render",
+  "private": true,
+  "description": "Pinned HyperFrames toolchain used by Reel Studio to render motion-graphic inserts.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "hf": "hyperframes"
+  },
+  "dependencies": {
+    "hyperframes": "0.9.41"
+  }
+}

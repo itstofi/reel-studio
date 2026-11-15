@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reel Studio</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="brand-mark">▶</span> Reel Studio</a>
+    <nav class="nav"><a href="#/" data-view="projects">Projects</a></nav>
+    <div class="topbar-right">
+      <span id="jobs-active" class="badge badge-run" hidden></span>
+      <span id="sse-status" class="sse sse-connecting" title="Live updates"></span>
+      <span id="version" class="muted"></span>
+    </div>
+  </header>
+  <main id="main" class="page"></main>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

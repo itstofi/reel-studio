@@ -1,0 +1,243 @@
+{
+  "title": "US airports ground stop explained",
+  "lang": "en",
+  "engine": "chatterbox",
+  "voice": "default",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_FAA_ground_stop",
+    "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel",
+    "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
+  ],
+  "lines": [
+    {
+      "text": "American airports were collapsing yesterday. But why?",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/ohare.jpg",
+            "tag": "Chicago O'Hare · file photo",
+            "credit": "Photo: Dllu · CC BY-SA 4.0 · Wikimedia Commons",
+            "kicker": "BREAKING",
+            "headline": "All US flights stopped"
+          }
+        }
+      ]
+    },
+    {
+      "text": "On Friday afternoon, the FAA stopped every plane from taking off in the United States.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/taxiway.jpg",
+            "tag": "Planes waiting · file photo",
+            "credit": "Photo: 4300streetcar · CC BY 4.0 · Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "text": "The FAA controls all air traffic in America.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/artcc.jpg",
+            "tag": "FAA air traffic control",
+            "credit": "Photo: FAA · public domain"
+          }
+        }
+      ]
+    },
+    {
+      "text": "This only happened two times before: on September 11, 2001, and in January 2023.",
+      "graphics": [
+        {
+          "template": "timeline",
+          "params": {
+            "title": "US-wide ground stops",
+            "items": [
+              {
+                "time": "Sept 11, 2001",
+                "text": "Terror attacks"
+              },
+              {
+                "time": "Jan 2023",
+                "text": "FAA computer failure"
+              },
+              {
+                "time": "Nov 13, 2026",
+                "text": "Network outage"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "So what went wrong? It was not the weather.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/tower.jpg",
+            "tag": "Air traffic control tower",
+            "credit": "Photo: Harrison Keely · CC BY 4.0 · Wikimedia Commons",
+            "kicker": "WHY?"
+          }
+        }
+      ]
+    },
+    {
+      "text": "The communication network that links air traffic control centers broke down.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "What broke",
+            "items": [
+              "Control centers lost contact",
+              "Radio problems",
+              "Planes could not leave"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Officials say new equipment sent too much data, and the old system could not handle it. There was no sign of an attack.",
+      "graphics": [
+        {
+          "template": "compare",
+          "params": {
+            "before": "Old system",
+            "after": "Too much data from new equipment → overload"
+          }
+        }
+      ]
+    },
+    {
+      "text": "The stop lasted four hours and twenty one minutes.",
+      "graphics": [
+        {
+          "template": "timeline",
+          "params": {
+            "title": "Friday, Nov 13 (Eastern time)",
+            "items": [
+              {
+                "time": "3:54 PM",
+                "text": "All departures stopped"
+              },
+              {
+                "time": "8:15 PM",
+                "text": "Flights start again"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "More than 4,700 flights were cancelled, and more than 10,000 were delayed.",
+      "graphics": [
+        {
+          "template": "bars",
+          "params": {
+            "title": "Friday flights",
+            "bars": [
+              {
+                "label": "Cancelled",
+                "value": 4700
+              },
+              {
+                "label": "Delayed",
+                "value": 10000
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "About 1.5 million passengers were affected, and hundreds of planes landed at other airports.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/security.jpg",
+            "tag": "Passengers waiting · file photo",
+            "credit": "Photo: APK · CC BY-SA 4.0 · Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Flights from Europe and Mexico to the United States were stopped too.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/lax.jpg",
+            "tag": "Los Angeles · file photo",
+            "credit": "Photo: Charles from Port Chester, New York · CC BY 2.0 · Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Transportation Secretary Sean Duffy said it will take some time to fix.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/duffy.jpg",
+            "tag": "Sean Duffy · US Transportation Secretary",
+            "credit": "Photo: US DOT · public domain",
+            "headline": "“It will take us some time”"
+          }
+        }
+      ]
+    },
+    {
+      "text": "On Saturday, more than 2,000 more flights were cancelled.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/gate.jpg",
+            "tag": "Saturday · file photo",
+            "credit": "Photo: Beyond My Ken · CC BY-SA 4.0 · Wikimedia Commons",
+            "kicker": "STILL DELAYED"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Now leaders want 50 billion dollars from Congress to build a new system.",
+      "graphics": [
+        {
+          "template": "photo",
+          "params": {
+            "src": "examples/assets/airports/capitol.jpg",
+            "tag": "US Congress",
+            "credit": "Photo: Noclip · public domain",
+            "headline": "$50 billion to fix air traffic control"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Will it be fixed before Thanksgiving? Follow for more news.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "NEXT",
+            "text": "Fixed before Thanksgiving?"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Third-party clones (see vendor/README.md for pinned commits)
+vendor/*
+!vendor/README.md
+
+# User data, models, caches
+projects/
+models/
+.cache/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Node
+node_modules/
+render/.hf-cache/
+
+# macOS
+.DS_Store
+
+# Generated test footage
+tests/media/
+
+# Linked third-party skills (recreated by scripts/setup.sh); our own skills stay tracked
+.claude/skills/*
+!.claude/skills/reel-standard/
+!.claude/skills/reel-motion/
+
+# Voice sidecar runtime
+services/voice/.venv/
+services/voice/voice.log
+services/voice/voice.pid

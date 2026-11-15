@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "kinocut": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--python", "3.12", "--from", "kinocut==2.0.1", "kino", "--mcp"]
+    },
+    "elevenlabs": {
+      "type": "http",
+      "url": "https://api.elevenlabs.io/v1/mcp"
+    },
+    "higgsfield": {
+      "type": "http",
+      "url": "https://mcp.higgsfield.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "title": "How Reel Studio works",
+  "lang": "en",
+  "voice_source": "recorded",
+  "presenter": {
+    "photo": "examples/assets/presenter/presenter.png",
+    "crop": [
+      450,
+      200,
+      420
+    ],
+    "title": "Your title · Your role",
+    "subtitle": "How Reel Studio works"
+  },
+  "lines": [
+    {
+      "text": "This video was edited by an app I built with AI. Let me show you how it works.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "REEL STUDIO",
+            "text": "An AI video editor I built"
+          }
+        }
+      ]
+    },
+    {
+      "text": "I write a script, and the app turns it into a finished reel with one command.",
+      "graphics": [
+        {
+          "template": "timeline",
+          "params": {
+            "title": "One command",
+            "items": [
+              {
+                "time": "Step 1",
+                "text": "Script"
+              },
+              {
+                "time": "Step 2",
+                "text": "Voice"
+              },
+              {
+                "time": "Step 3",
+                "text": "Graphics + captions"
+              },
+              {
+                "time": "Step 4",
+                "text": "Quality check"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "First, I record my voice, line by line, with the laptop microphone.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "Record studio",
+            "items": [
+              "Pick your microphone",
+              "Read line by line",
+              "Live level meter"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "A teleprompter shows me what to read, and how fast to read it.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "TELEPROMPTER",
+            "text": "What to read. How fast."
+          }
+        }
+      ]
+    },
+    {
+      "text": "Then the app cleans my audio. It removes noise, cuts the silence, and evens out the volume.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "Audio cleanup",
+            "items": [
+              "Remove room noise",
+              "Cut the silence",
+              "Even out the volume"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Next, AI listens to every take and compares it to the script.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "AI LISTENS",
+            "text": "Every take vs the script"
+          }
+        }
+      ]
+    },
+    {
+      "text": "If I miss one word, it tells me which word, and I record it again.",
+      "graphics": [
+        {
+          "template": "compare",
+          "params": {
+            "before": "Heard: \"compares it to the\"",
+            "after": "Missing: \"script\" → record again"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Then it builds the graphics you are watching right now, one for every line.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "MOTION GRAPHICS",
+            "text": "One for every line"
+          }
+        }
+      ]
+    },
+    {
+      "text": "It adds English captions, timed to every word I say.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "CAPTIONS",
+            "text": "Timed to every word"
+          }
+        }
+      ]
+    },
+    {
+      "text": "And it exports in 4K, at 60 frames per second.",
+      "graphics": [
+        {
+          "template": "stat",
+          "params": {
+            "value": "4",
+            "suffix": "K",
+            "label": "at 60 frames per second"
+          }
+        }
+      ]
+    },
+    {
+      "text": "Before I post, it checks the final video, from the sound to the picture.",
+      "graphics": [
+        {
+          "template": "list",
+          "params": {
+            "title": "Final check",
+            "items": [
+              "Picture size and quality",
+              "Loudness",
+              "Every word heard clearly"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "If one check fails, I fix it first.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "QUALITY GATE",
+            "text": "Fail one check? Fix it first."
+          }
+        }
+      ]
+    },
+    {
+      "text": "What should I build next? Tell me in the comments.",
+      "graphics": [
+        {
+          "template": "title",
+          "params": {
+            "kicker": "YOUR TURN",
+            "text": "What should I build next?"
+          }
+        }
+      ]
+    }
+  ]
+}

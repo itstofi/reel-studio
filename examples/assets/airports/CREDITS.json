@@ -1,0 +1,56 @@
+{
+  "ohare": {
+    "title": "File:Concourse B, Chicago O'Hare airport.jpg",
+    "artist": "Dllu",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Concourse_B,_Chicago_O%27Hare_airport.jpg"
+  },
+  "taxiway": {
+    "title": "File:Aircraft lined up on taxiway N at Boston Logan Airport Oct 2024.jpg",
+    "artist": "4300streetcar",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aircraft_lined_up_on_taxiway_N_at_Boston_Logan_Airport_Oct_2024.jpg"
+  },
+  "artcc": {
+    "title": "File:Air traffic controllers at the Washington ARTCC.jpg",
+    "artist": "Work of the United States Federal Government under the terms of 17 U.S.C. § 105",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Air_traffic_controllers_at_the_Washington_ARTCC.jpg"
+  },
+  "tower": {
+    "title": "File:The FAA air traffic control tower at Philadelphia International Airport.jpg",
+    "artist": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg"
+  },
+  "security": {
+    "title": "File:Denver International Airport security line.jpg",
+    "artist": "APK",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport_security_line.jpg"
+  },
+  "lax": {
+    "title": "File:Tom Bradley International Terminal (TBIT), Los Angeles International Airport (KLAX) (38983125984).jpg",
+    "artist": "Charles from Port Chester, New York",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Bradley_International_Terminal_(TBIT),_Los_Angeles_International_Airport_(KLAX)_(38983125984).jpg"
+  },
+  "duffy": {
+    "title": "File:Secretary of Transportation Sean Duffy Official Portrait (cropped).jpg",
+    "artist": "United States Department of Transportation",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Secretary_of_Transportation_Sean_Duffy_Official_Portrait_(cropped).jpg"
+  },
+  "capitol": {
+    "title": "File:Capitol Building Full View.jpg",
+    "artist": "Noclip",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg"
+  },
+  "gate": {
+    "title": "File:Frontier Airlines jet at Phoenix Sky Harbor gate F6.jpg",
+    "artist": "Beyond My Ken",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frontier_Airlines_jet_at_Phoenix_Sky_Harbor_gate_F6.jpg"
+  }
+}
